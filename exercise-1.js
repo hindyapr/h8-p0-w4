@@ -2,7 +2,7 @@
 
 function angkaPrima(angka) {
     // you can only write your code here!
-
+    if (angka < 2) return false;
     for (var i = angka - 1; i > 1; i--) {
         if (angka % i === 0) return false;
     }
